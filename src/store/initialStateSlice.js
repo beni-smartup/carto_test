@@ -13,13 +13,13 @@ export const initialState = {
   basemap: VOYAGER,
   credentials: {
     apiVersion: API_VERSIONS.V3,
-    apiBaseUrl: 'https://gcp-us-east1.api.carto.com',
+    apiBaseUrl: 'https://gcp-europe-west1.api.carto.com',
   },
   googleApiKey: '', // only required when using a Google Basemap
   googleMapId: '', // only required when using a Google Custom Basemap
   oauth: {
     domain: 'auth.carto.com',
-    clientId: '', // type here your application clientId
+    clientId: 'nMeRh67jltrgckUZXGel2QQbSSrUQLZU', // type here your application clientId
     organizationId: '', // organizationId is required for SSO
     scopes: [
       'read:current_user',
